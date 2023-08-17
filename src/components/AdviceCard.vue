@@ -22,7 +22,9 @@ const adviceQuote = computed(() => {
     <div class="advice-title">{{ adviceTitle }}</div>
     <div class="advice-quote">{{ adviceQuote }}</div>
 
-    <Divider />
+    <img class="divider" >
+
+    <!-- <Divider /> -->
 
     <Button />
   </div>
@@ -53,6 +55,35 @@ const adviceQuote = computed(() => {
   color: hsl(193, 38%, 86%);
   font-size: 28px;
 
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.divider {
+  content:url("../assets/pattern-divider-desktop.svg");
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .advice-card {
+    width: 12rem;
+    padding: 30px;
+  }
+
+  .advice-title {
+    font-size: 12px;
+    letter-spacing: 3px;
+
+    margin-bottom: 18px;
+  }
+  .advice-quote {
+    font-size: 20px;
+
+    margin-bottom: 24px;
+  }
+
+  .divider {
+  content:url("../assets/pattern-divider-mobile.svg");
+}
 }
 </style>
