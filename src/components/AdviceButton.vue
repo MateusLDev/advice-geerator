@@ -46,4 +46,13 @@ const adviceStore = useAdviceStore();
 .advice-button:hover {
   box-shadow: 0px 0px 25px 0px rgba(82, 255, 168, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+  .advice-button {
+    width: 50px;
+    height: 50px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+  }
+}
 </style>

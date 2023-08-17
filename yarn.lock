@@ -7,43 +7,6 @@
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@babel/parser/-/parser-7.21.4.tgz#94003fdfc520bbe2875d4ae557b43ddb6d880f17"
   integrity sha1-lAA/38Ugu+KHXUrlV7Q9222IDxc=
 
-"@colors/colors@1.5.0":
-  version "1.5.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
-  integrity sha1-u1BFecHK6SPmV2pPXaQ9Jfl729k=
-
-"@cypress/request@^2.88.10":
-  version "2.88.11"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@cypress/request/-/request-2.88.11.tgz#5a4c7399bc2d7e7ed56e92ce5acb620c8b187047"
-  integrity sha1-Wkxzmbwtfn7VbpLOWstiDIsYcEc=
-  dependencies:
-    aws-sign2 "~0.7.0"
-    aws4 "^1.8.0"
-    caseless "~0.12.0"
-    combined-stream "~1.0.6"
-    extend "~3.0.2"
-    forever-agent "~0.6.1"
-    form-data "~2.3.2"
-    http-signature "~1.3.6"
-    is-typedarray "~1.0.0"
-    isstream "~0.1.2"
-    json-stringify-safe "~5.0.1"
-    mime-types "~2.1.19"
-    performance-now "^2.1.0"
-    qs "~6.10.3"
-    safe-buffer "^5.1.2"
-    tough-cookie "~2.5.0"
-    tunnel-agent "^0.6.0"
-    uuid "^8.3.2"
-
-"@cypress/xvfb@^1.2.4":
-  version "1.2.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@cypress/xvfb/-/xvfb-1.2.4.tgz#2daf42e8275b39f4aa53c14214e557bd14e7748a"
-  integrity sha1-La9C6CdbOfSqU8FCFOVXvRTndIo=
-  dependencies:
-    debug "^3.1.0"
-    lodash.once "^4.1.1"
-
 "@esbuild/android-arm64@0.17.15":
   version "0.17.15"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@esbuild/android-arm64/-/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
@@ -154,42 +117,81 @@
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@esbuild/win32-x64/-/win32-x64-0.17.15.tgz#c2e737f3a201ebff8e2ac2b8e9f246b397ad19b8"
   integrity sha1-wuc386IB6/+OKsK46fJGs5etGbg=
 
+"@jridgewell/sourcemap-codec@^1.4.13":
+  version "1.4.15"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
+  integrity sha1-18bmdVx4VnqVHgSrUu8P0m3lnzI=
+
+"@types/chai-subset@^1.3.3":
+  version "1.3.3"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/chai-subset/-/chai-subset-1.3.3.tgz#97893814e92abd2c534de422cb377e0e0bdaac94"
+  integrity sha1-l4k4FOkqvSxTTeQiyzd+DgvarJQ=
+  dependencies:
+    "@types/chai" "*"
+
+"@types/chai@*", "@types/chai@^4.3.4":
+  version "4.3.4"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/chai/-/chai-4.3.4.tgz#e913e8175db8307d78b4e8fa690408ba6b65dee4"
+  integrity sha1-6RPoF124MH14tOj6aQQIumtl3uQ=
+
 "@types/node@*":
-  version "18.15.11"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
-  integrity sha1-s7eQ8JyxaWz/zsYF3gJbCI+kIl8=
-
-"@types/node@^14.14.31":
-  version "14.18.42"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/node/-/node-14.18.42.tgz#fa39b2dc8e0eba61bdf51c66502f84e23b66e114"
-  integrity sha1-+jmy3I4OumG99RxmUC+E4jtm4RQ=
-
-"@types/sinonjs__fake-timers@8.1.1":
-  version "8.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.1.tgz#b49c2c70150141a15e0fa7e79cf1f92a72934ce3"
-  integrity sha1-tJwscBUBQaFeD6fnnPH5KnKTTOM=
-
-"@types/sizzle@^2.3.2":
-  version "2.3.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/sizzle/-/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
-  integrity sha1-/14vGQKWnTBSJaBHyKD9XJFc6+8=
+  version "18.16.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/node/-/node-18.16.2.tgz#2f610ea71034b3971c312192377f8a7178eb57f1"
+  integrity sha1-L2EOpxA0s5ccMSGSN3+KcXjrV/E=
 
 "@types/web-bluetooth@^0.0.16":
   version "0.0.16"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz#1d12873a8e49567371f2a75fe3e7f7edca6662d8"
   integrity sha1-HRKHOo5JVnNx8qdf4+f37cpmYtg=
 
-"@types/yauzl@^2.9.1":
-  version "2.10.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@types/yauzl/-/yauzl-2.10.0.tgz#b3248295276cf8c6f153ebe6a9aba0c988cb2599"
-  integrity sha1-sySClSds+MbxU+vmqaugyYjLJZk=
-  dependencies:
-    "@types/node" "*"
-
 "@vitejs/plugin-vue@^4.1.0":
   version "4.1.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitejs/plugin-vue/-/plugin-vue-4.1.0.tgz#b6a9d83cd91575f7ee15593f6444397f68751073"
   integrity sha1-tqnYPNkVdffuFVk/ZEQ5f2h1EHM=
+
+"@vitest/expect@0.30.1":
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitest/expect/-/expect-0.30.1.tgz#3c92a3fc23a198315ce8cd16689dc2d5aeac40b8"
+  integrity sha1-PJKj/COhmDFc6M0WaJ3C1a6sQLg=
+  dependencies:
+    "@vitest/spy" "0.30.1"
+    "@vitest/utils" "0.30.1"
+    chai "^4.3.7"
+
+"@vitest/runner@0.30.1":
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitest/runner/-/runner-0.30.1.tgz#534db590091e5d40682f47b9478f64b776073c50"
+  integrity sha1-U021kAkeXUBoL0e5R49kt3YHPFA=
+  dependencies:
+    "@vitest/utils" "0.30.1"
+    concordance "^5.0.4"
+    p-limit "^4.0.0"
+    pathe "^1.1.0"
+
+"@vitest/snapshot@0.30.1":
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitest/snapshot/-/snapshot-0.30.1.tgz#25e912557b357ecb89d5ee35e8d7c4c7a5ecfe32"
+  integrity sha1-JekSVXs1fsuJ1e416NfEx6Xs/jI=
+  dependencies:
+    magic-string "^0.30.0"
+    pathe "^1.1.0"
+    pretty-format "^27.5.1"
+
+"@vitest/spy@0.30.1":
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitest/spy/-/spy-0.30.1.tgz#e3344d4513407afd922963737fb9733a7787a2bf"
+  integrity sha1-4zRNRRNAev2SKWNzf7lzOneHor8=
+  dependencies:
+    tinyspy "^2.1.0"
+
+"@vitest/utils@0.30.1":
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/@vitest/utils/-/utils-0.30.1.tgz#0e5bf8c1b81a6dfa2b70120c2aa092a651440cda"
+  integrity sha1-Dlv4wbgabforcBIMKqCSplFEDNo=
+  dependencies:
+    concordance "^5.0.4"
+    loupe "^2.3.6"
+    pretty-format "^27.5.1"
 
 "@volar/language-core@1.3.0-alpha.0":
   version "1.3.0-alpha.0"
@@ -352,84 +354,35 @@
   dependencies:
     vue-demi "*"
 
-aggregate-error@^3.0.0:
-  version "3.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
-  integrity sha1-kmcP9Q9TWb23o+DUDQ7DDFc3aHo=
-  dependencies:
-    clean-stack "^2.0.0"
-    indent-string "^4.0.0"
+acorn-walk@^8.2.0:
+  version "8.2.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
+  integrity sha1-dBIQ8uJCZFRQiFOi9E0KuDt/acE=
 
-ansi-colors@^4.1.1:
-  version "4.1.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
-  integrity sha1-N2ETQOsiQ+cMxgTK011jJw1IeBs=
-
-ansi-escapes@^4.3.0:
-  version "4.3.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ansi-escapes/-/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
-  integrity sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4=
-  dependencies:
-    type-fest "^0.21.3"
+acorn@^8.8.2:
+  version "8.8.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
+  integrity sha1-Gy8l2wKvllOZuXdrDCw5EnbTfEo=
 
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
   integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
 
-ansi-styles@^4.0.0, ansi-styles@^4.1.0:
-  version "4.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ansi-styles/-/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
-  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
-  dependencies:
-    color-convert "^2.0.1"
+ansi-styles@^5.0.0:
+  version "5.2.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
+  integrity sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=
 
-arch@^2.2.0:
-  version "2.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/arch/-/arch-2.2.0.tgz#1bc47818f305764f23ab3306b0bfc086c5a29d11"
-  integrity sha1-G8R4GPMFdk8jqzMGsL/AhsWinRE=
-
-asn1@~0.2.3:
-  version "0.2.6"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/asn1/-/asn1-0.2.6.tgz#0d3a7bb6e64e02a90c0303b31f292868ea09a08d"
-  integrity sha1-DTp7tuZOAqkMAwOzHykoaOoJoI0=
-  dependencies:
-    safer-buffer "~2.1.0"
-
-assert-plus@1.0.0, assert-plus@^1.0.0:
-  version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
-  integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
-
-astral-regex@^2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
-  integrity sha1-SDFDxWeu7UeFdZwIZXhtx319LjE=
-
-async@^3.2.0:
-  version "3.2.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/async/-/async-3.2.4.tgz#2d22e00f8cddeb5fde5dd33522b56d1cf569a81c"
-  integrity sha1-LSLgD4zd61/eXdM1IrVtHPVpqBw=
+assertion-error@^1.1.0:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
+  integrity sha1-5gtrDo8wG9l+U3UhW9pAbIURjAs=
 
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
-
-at-least-node@^1.0.0:
-  version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
-  integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
-
-aws-sign2@~0.7.0:
-  version "0.7.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
-  integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
-
-aws4@^1.8.0:
-  version "1.12.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/aws4/-/aws4-1.12.0.tgz#ce1c9d143389679e253b314241ea9aa5cec980d3"
-  integrity sha1-zhydFDOJZ54lOzFCQeqapc7JgNM=
 
 axios@^1.3.5:
   version "1.3.5"
@@ -445,35 +398,10 @@ balanced-match@^1.0.0:
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4=
 
-base64-js@^1.3.1:
-  version "1.5.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
-  integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
-
-bcrypt-pbkdf@^1.0.0:
-  version "1.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
-  integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
-  dependencies:
-    tweetnacl "^0.14.3"
-
-blob-util@^2.0.2:
-  version "2.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/blob-util/-/blob-util-2.0.2.tgz#3b4e3c281111bb7f11128518006cdc60b403a1eb"
-  integrity sha1-O048KBERu38REoUYAGzcYLQDoes=
-
-bluebird@^3.7.2:
-  version "3.7.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
-  integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
-
-brace-expansion@^1.1.7:
-  version "1.1.11"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
-  integrity sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=
-  dependencies:
-    balanced-match "^1.0.0"
-    concat-map "0.0.1"
+blueimp-md5@^2.10.0:
+  version "2.19.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/blueimp-md5/-/blueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
+  integrity sha1-tT/upUmNy1PcbsS4I624S3KcSvA=
 
 brace-expansion@^2.0.1:
   version "2.0.1"
@@ -482,252 +410,85 @@ brace-expansion@^2.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-buffer-crc32@~0.2.3:
-  version "0.2.13"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
-  integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
+cac@^6.7.14:
+  version "6.7.14"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cac/-/cac-6.7.14.tgz#804e1e6f506ee363cb0e3ccbb09cad5dd9870959"
+  integrity sha1-gE4eb1Bu42PLDjzLsJytXdmHCVk=
 
-buffer@^5.6.0:
-  version "5.7.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/buffer/-/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
-  integrity sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=
+chai@^4.3.7:
+  version "4.3.7"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/chai/-/chai-4.3.7.tgz#ec63f6df01829088e8bf55fca839bcd464a8ec51"
+  integrity sha1-7GP23wGCkIjov1X8qDm81GSo7FE=
   dependencies:
-    base64-js "^1.3.1"
-    ieee754 "^1.1.13"
+    assertion-error "^1.1.0"
+    check-error "^1.0.2"
+    deep-eql "^4.1.2"
+    get-func-name "^2.0.0"
+    loupe "^2.3.1"
+    pathval "^1.1.1"
+    type-detect "^4.0.5"
 
-cachedir@^2.3.0:
-  version "2.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cachedir/-/cachedir-2.3.0.tgz#0c75892a052198f0b21c7c1804d8331edfcae0e8"
-  integrity sha1-DHWJKgUhmPCyHHwYBNgzHt/K4Og=
-
-call-bind@^1.0.0:
+check-error@^1.0.2:
   version "1.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
-  integrity sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw=
-  dependencies:
-    function-bind "^1.1.1"
-    get-intrinsic "^1.0.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
+  integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
-caseless@~0.12.0:
-  version "0.12.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
-  integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
-
-chalk@^4.1.0:
-  version "4.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-check-more-types@^2.24.0:
-  version "2.24.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/check-more-types/-/check-more-types-2.24.0.tgz#1420ffb10fd444dcfc79b43891bbfffd32a84600"
-  integrity sha1-FCD/sQ/URNz8ebQ4kbv//TKoRgA=
-
-ci-info@^3.2.0:
-  version "3.8.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ci-info/-/ci-info-3.8.0.tgz#81408265a5380c929f0bc665d62256628ce9ef91"
-  integrity sha1-gUCCZaU4DJKfC8Zl1iJWYozp75E=
-
-clean-stack@^2.0.0:
-  version "2.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
-  integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
-
-cli-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
-  integrity sha1-JkMFp65JDR0Dvwybp8kl0XU68wc=
-  dependencies:
-    restore-cursor "^3.1.0"
-
-cli-table3@~0.6.1:
-  version "0.6.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cli-table3/-/cli-table3-0.6.3.tgz#61ab765aac156b52f222954ffc607a6f01dbeeb2"
-  integrity sha1-Yat2WqwVa1LyIpVP/GB6bwHb7rI=
-  dependencies:
-    string-width "^4.2.0"
-  optionalDependencies:
-    "@colors/colors" "1.5.0"
-
-cli-truncate@^2.1.0:
-  version "2.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cli-truncate/-/cli-truncate-2.1.0.tgz#c39e28bf05edcde5be3b98992a22deed5a2b93c7"
-  integrity sha1-w54ovwXtzeW+O5iZKiLe7Vork8c=
-  dependencies:
-    slice-ansi "^3.0.0"
-    string-width "^4.2.0"
-
-color-convert@^2.0.1:
-  version "2.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
-  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
-  dependencies:
-    color-name "~1.1.4"
-
-color-name@~1.1.4:
-  version "1.1.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
-  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
-
-colorette@^2.0.16:
-  version "2.0.19"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/colorette/-/colorette-2.0.19.tgz#cdf044f47ad41a0f4b56b3a0d5b4e6e1a2d5a798"
-  integrity sha1-zfBE9HrUGg9LVrOg1bTm4aLVp5g=
-
-combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
+combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
   integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha1-Rqu9FlL44Fm92u+Zu9yyrZzxea4=
-
-common-tags@^1.8.0:
-  version "1.8.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/common-tags/-/common-tags-1.8.2.tgz#94ebb3c076d26032745fd54face7f688ef5ac9c6"
-  integrity sha1-lOuzwHbSYDJ0X9VPrOf2iO9aycY=
-
-concat-map@0.0.1:
-  version "0.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
-  integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
-
-core-util-is@1.0.2:
-  version "1.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-  integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
-
-cross-spawn@^7.0.0:
-  version "7.0.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
-  integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
+concordance@^5.0.4:
+  version "5.0.4"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/concordance/-/concordance-5.0.4.tgz#9896073261adced72f88d60e4d56f8efc4bbbbd2"
+  integrity sha1-mJYHMmGtztcviNYOTVb478S7u9I=
   dependencies:
-    path-key "^3.1.0"
-    shebang-command "^2.0.0"
-    which "^2.0.1"
+    date-time "^3.1.0"
+    esutils "^2.0.3"
+    fast-diff "^1.2.0"
+    js-string-escape "^1.0.1"
+    lodash "^4.17.15"
+    md5-hex "^3.0.1"
+    semver "^7.3.2"
+    well-known-symbols "^2.0.0"
 
 csstype@^2.6.8:
   version "2.6.21"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/csstype/-/csstype-2.6.21.tgz#2efb85b7cc55c80017c66a5ad7cbd931fda3a90e"
   integrity sha1-LvuFt8xVyAAXxmpa18vZMf2jqQ4=
 
-cypress@^12.9.0:
-  version "12.9.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/cypress/-/cypress-12.9.0.tgz#e6ab43cf329fd7c821ef7645517649d72ccf0a12"
-  integrity sha1-5qtDzzKf18gh73ZFUXZJ1yzPChI=
+date-time@^3.1.0:
+  version "3.1.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/date-time/-/date-time-3.1.0.tgz#0d1e934d170579f481ed8df1e2b8ff70ee845e1e"
+  integrity sha1-DR6TTRcFefSB7Y3x4rj/cO6EXh4=
   dependencies:
-    "@cypress/request" "^2.88.10"
-    "@cypress/xvfb" "^1.2.4"
-    "@types/node" "^14.14.31"
-    "@types/sinonjs__fake-timers" "8.1.1"
-    "@types/sizzle" "^2.3.2"
-    arch "^2.2.0"
-    blob-util "^2.0.2"
-    bluebird "^3.7.2"
-    buffer "^5.6.0"
-    cachedir "^2.3.0"
-    chalk "^4.1.0"
-    check-more-types "^2.24.0"
-    cli-cursor "^3.1.0"
-    cli-table3 "~0.6.1"
-    commander "^5.1.0"
-    common-tags "^1.8.0"
-    dayjs "^1.10.4"
-    debug "^4.3.4"
-    enquirer "^2.3.6"
-    eventemitter2 "6.4.7"
-    execa "4.1.0"
-    executable "^4.1.1"
-    extract-zip "2.0.1"
-    figures "^3.2.0"
-    fs-extra "^9.1.0"
-    getos "^3.2.1"
-    is-ci "^3.0.0"
-    is-installed-globally "~0.4.0"
-    lazy-ass "^1.6.0"
-    listr2 "^3.8.3"
-    lodash "^4.17.21"
-    log-symbols "^4.0.0"
-    minimist "^1.2.6"
-    ospath "^1.2.2"
-    pretty-bytes "^5.6.0"
-    proxy-from-env "1.0.0"
-    request-progress "^3.0.0"
-    semver "^7.3.2"
-    supports-color "^8.1.1"
-    tmp "~0.2.1"
-    untildify "^4.0.0"
-    yauzl "^2.10.0"
-
-dashdash@^1.12.0:
-  version "1.14.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
-  integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
-  dependencies:
-    assert-plus "^1.0.0"
-
-dayjs@^1.10.4:
-  version "1.11.7"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
-  integrity sha1-SylpImQvcJmVRNEUSiwlcw/OY+I=
+    time-zone "^1.0.0"
 
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
-debug@^3.1.0:
-  version "3.2.7"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
-  integrity sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=
-  dependencies:
-    ms "^2.1.1"
-
-debug@^4.1.1, debug@^4.3.4:
+debug@^4.3.4:
   version "4.3.4"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=
   dependencies:
     ms "2.1.2"
 
+deep-eql@^4.1.2:
+  version "4.1.3"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/deep-eql/-/deep-eql-4.1.3.tgz#7c7775513092f7df98d8df9996dd085eb668cc6d"
+  integrity sha1-fHd1UTCS99+Y2N+Zlt0IXrZozG0=
+  dependencies:
+    type-detect "^4.0.0"
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
-
-ecc-jsbn@~0.1.1:
-  version "0.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
-  integrity sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
-  dependencies:
-    jsbn "~0.1.0"
-    safer-buffer "^2.1.0"
-
-emoji-regex@^8.0.0:
-  version "8.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
-  integrity sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=
-
-end-of-stream@^1.1.0:
-  version "1.4.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
-  integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
-  dependencies:
-    once "^1.4.0"
-
-enquirer@^2.3.6:
-  version "2.3.6"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/enquirer/-/enquirer-2.3.6.tgz#2a7fe5dd634a1e4125a975ec994ff5456dc3734d"
-  integrity sha1-Kn/l3WNKHkElqXXsmU/1RW3Dc00=
-  dependencies:
-    ansi-colors "^4.1.1"
 
 esbuild@^0.17.5:
   version "0.17.15"
@@ -757,92 +518,25 @@ esbuild@^0.17.5:
     "@esbuild/win32-ia32" "0.17.15"
     "@esbuild/win32-x64" "0.17.15"
 
-escape-string-regexp@^1.0.5:
-  version "1.0.5"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-  integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-
 estree-walker@^2.0.2:
   version "2.0.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
 
-eventemitter2@6.4.7:
-  version "6.4.7"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/eventemitter2/-/eventemitter2-6.4.7.tgz#a7f6c4d7abf28a14c1ef3442f21cb306a054271d"
-  integrity sha1-p/bE16vyihTB7zRC8hyzBqBUJx0=
+esutils@^2.0.3:
+  version "2.0.3"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
+  integrity sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q=
 
-execa@4.1.0:
-  version "4.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
-  integrity sha1-TlSRrRVy8vF6d9OIxshXE1sihHo=
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
-executable@^4.1.1:
-  version "4.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/executable/-/executable-4.1.1.tgz#41532bff361d3e57af4d763b70582db18f5d133c"
-  integrity sha1-QVMr/zYdPlevTXY7cFgtsY9dEzw=
-  dependencies:
-    pify "^2.2.0"
-
-extend@~3.0.2:
-  version "3.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
-  integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
-
-extract-zip@2.0.1:
-  version "2.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/extract-zip/-/extract-zip-2.0.1.tgz#663dca56fe46df890d5f131ef4a06d22bb8ba13a"
-  integrity sha1-Zj3KVv5G34kNXxMe9KBtIruLoTo=
-  dependencies:
-    debug "^4.1.1"
-    get-stream "^5.1.0"
-    yauzl "^2.10.0"
-  optionalDependencies:
-    "@types/yauzl" "^2.9.1"
-
-extsprintf@1.3.0:
-  version "1.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
-  integrity sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
-
-extsprintf@^1.2.0:
-  version "1.4.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
-  integrity sha1-jRcsBkhn8jXAyEpZaAbSeb9LzAc=
-
-fd-slicer@~1.1.0:
-  version "1.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/fd-slicer/-/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
-  integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
-  dependencies:
-    pend "~1.2.0"
-
-figures@^3.2.0:
-  version "3.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
-  integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
-  dependencies:
-    escape-string-regexp "^1.0.5"
+fast-diff@^1.2.0:
+  version "1.2.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
 
 follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=
-
-forever-agent@~0.6.1:
-  version "0.6.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
-  integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
 
 form-data@^4.0.0:
   version "4.0.0"
@@ -852,30 +546,6 @@ form-data@^4.0.0:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
-
-form-data@~2.3.2:
-  version "2.3.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
-  integrity sha1-3M5SwF9kTymManq5Nr1yTO/786Y=
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.6"
-    mime-types "^2.1.12"
-
-fs-extra@^9.1.0:
-  version "9.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
-  integrity sha1-WVRGDHZKjaIJS6NVS/g55rmnyG0=
-  dependencies:
-    at-least-node "^1.0.0"
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
-
-fs.realpath@^1.0.0:
-  version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
-  integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 fsevents@~2.3.2:
   version "2.3.2"
@@ -887,69 +557,10 @@ function-bind@^1.1.1:
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
 
-get-intrinsic@^1.0.2:
-  version "1.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/get-intrinsic/-/get-intrinsic-1.2.0.tgz#7ad1dc0535f3a2904bba075772763e5051f6d05f"
-  integrity sha1-etHcBTXzopBLugdXcnY+UFH20F8=
-  dependencies:
-    function-bind "^1.1.1"
-    has "^1.0.3"
-    has-symbols "^1.0.3"
-
-get-stream@^5.0.0, get-stream@^5.1.0:
-  version "5.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
-  integrity sha1-SWaheV7lrOZecGxLe+txJX1uItM=
-  dependencies:
-    pump "^3.0.0"
-
-getos@^3.2.1:
-  version "3.2.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/getos/-/getos-3.2.1.tgz#0134d1f4e00eb46144c5a9c0ac4dc087cbb27dc5"
-  integrity sha1-ATTR9OAOtGFExanArE3Ah8uyfcU=
-  dependencies:
-    async "^3.2.0"
-
-getpass@^0.1.1:
-  version "0.1.7"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
-  integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
-  dependencies:
-    assert-plus "^1.0.0"
-
-glob@^7.1.3:
-  version "7.2.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
-  integrity sha1-uN8PuAK7+o6JvR2Ti04WV47UTys=
-  dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.1.1"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-global-dirs@^3.0.0:
-  version "3.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/global-dirs/-/global-dirs-3.0.1.tgz#0c488971f066baceda21447aecb1a8b911d22485"
-  integrity sha1-DEiJcfBmus7aIUR67LGouRHSJIU=
-  dependencies:
-    ini "2.0.0"
-
-graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.11"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
-  integrity sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=
-
-has-flag@^4.0.0:
-  version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
-  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
-
-has-symbols@^1.0.3:
-  version "1.0.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/has-symbols/-/has-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
-  integrity sha1-u3ssQ0klHc6HsSX3vfh0qnyLOfg=
+get-func-name@^2.0.0:
+  version "2.0.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
+  integrity sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=
 
 has@^1.0.3:
   version "1.0.3"
@@ -963,55 +574,6 @@ he@^1.2.0:
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
-http-signature@~1.3.6:
-  version "1.3.6"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/http-signature/-/http-signature-1.3.6.tgz#cb6fbfdf86d1c974f343be94e87f7fc128662cf9"
-  integrity sha1-y2+/34bRyXTzQ76U6H9/wShmLPk=
-  dependencies:
-    assert-plus "^1.0.0"
-    jsprim "^2.0.2"
-    sshpk "^1.14.1"
-
-human-signals@^1.1.1:
-  version "1.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
-  integrity sha1-xbHNFPUK6uCatsWf5jujOV/k36M=
-
-ieee754@^1.1.13:
-  version "1.2.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
-  integrity sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=
-
-indent-string@^4.0.0:
-  version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
-  integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
-
-inflight@^1.0.4:
-  version "1.0.6"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
-  integrity sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
-  dependencies:
-    once "^1.3.0"
-    wrappy "1"
-
-inherits@2:
-  version "2.0.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
-  integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
-
-ini@2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ini/-/ini-2.0.0.tgz#e5fd556ecdd5726be978fa1001862eacb0a94bc5"
-  integrity sha1-5f1Vbs3VcmvpePoQAYYurLCpS8U=
-
-is-ci@^3.0.0:
-  version "3.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-ci/-/is-ci-3.0.1.tgz#db6ecbed1bd659c43dac0f45661e7674103d1867"
-  integrity sha1-227L7RvWWcQ9rA9FZh52dBA9GGc=
-  dependencies:
-    ci-info "^3.2.0"
-
 is-core-module@^2.11.0:
   version "2.11.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-core-module/-/is-core-module-2.11.0.tgz#ad4cb3e3863e814523c96f3f58d26cc570ff0144"
@@ -1019,129 +581,32 @@ is-core-module@^2.11.0:
   dependencies:
     has "^1.0.3"
 
-is-fullwidth-code-point@^3.0.0:
-  version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
-  integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
+js-string-escape@^1.0.1:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
+  integrity sha1-4mJbrbwNZ8dTPp7cEGjFh65BN+8=
 
-is-installed-globally@~0.4.0:
-  version "0.4.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-installed-globally/-/is-installed-globally-0.4.0.tgz#9a0fd407949c30f86eb6959ef1b7994ed0b7b520"
-  integrity sha1-mg/UB5ScMPhutpWe8beZTtC3tSA=
-  dependencies:
-    global-dirs "^3.0.0"
-    is-path-inside "^3.0.2"
+jsonc-parser@^3.2.0:
+  version "3.2.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/jsonc-parser/-/jsonc-parser-3.2.0.tgz#31ff3f4c2b9793f89c67212627c51c6394f88e76"
+  integrity sha1-Mf8/TCuXk/icZyEmJ8UcY5T4jnY=
 
-is-path-inside@^3.0.2:
-  version "3.0.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-path-inside/-/is-path-inside-3.0.3.tgz#d231362e53a07ff2b0e0ea7fed049161ffd16283"
-  integrity sha1-0jE2LlOgf/Kw4Op/7QSRYf/RYoM=
+local-pkg@^0.4.3:
+  version "0.4.3"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/local-pkg/-/local-pkg-0.4.3.tgz#0ff361ab3ae7f1c19113d9bb97b98b905dbc4963"
+  integrity sha1-D/Nhqzrn8cGRE9m7l7mLkF28SWM=
 
-is-stream@^2.0.0:
-  version "2.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-stream/-/is-stream-2.0.1.tgz#fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077"
-  integrity sha1-+sHj1TuXrVqdCunO8jifWBClwHc=
-
-is-typedarray@~1.0.0:
-  version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
-  integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
-
-is-unicode-supported@^0.1.0:
-  version "0.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
-  integrity sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc=
-
-isexe@^2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
-  integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
-
-isstream@~0.1.2:
-  version "0.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
-  integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
-
-jsbn@~0.1.0:
-  version "0.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
-  integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
-
-json-schema@0.4.0:
-  version "0.4.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
-  integrity sha1-995M9u+rg4666zI2R0y7paGTCrU=
-
-json-stringify-safe@~5.0.1:
-  version "5.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
-  integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
-
-jsonfile@^6.0.1:
-  version "6.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
-  integrity sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=
-  dependencies:
-    universalify "^2.0.0"
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
-jsprim@^2.0.2:
-  version "2.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/jsprim/-/jsprim-2.0.2.tgz#77ca23dbcd4135cd364800d22ff82c2185803d4d"
-  integrity sha1-d8oj281BNc02SADSL/gsIYWAPU0=
-  dependencies:
-    assert-plus "1.0.0"
-    extsprintf "1.3.0"
-    json-schema "0.4.0"
-    verror "1.10.0"
-
-lazy-ass@^1.6.0:
-  version "1.6.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/lazy-ass/-/lazy-ass-1.6.0.tgz#7999655e8646c17f089fdd187d150d3324d54513"
-  integrity sha1-eZllXoZGwX8In90YfRUNMyTVRRM=
-
-listr2@^3.8.3:
-  version "3.14.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/listr2/-/listr2-3.14.0.tgz#23101cc62e1375fd5836b248276d1d2b51fdbe9e"
-  integrity sha1-IxAcxi4Tdf1YNrJIJ20dK1H9vp4=
-  dependencies:
-    cli-truncate "^2.1.0"
-    colorette "^2.0.16"
-    log-update "^4.0.0"
-    p-map "^4.0.0"
-    rfdc "^1.3.0"
-    rxjs "^7.5.1"
-    through "^2.3.8"
-    wrap-ansi "^7.0.0"
-
-lodash.once@^4.1.1:
-  version "4.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
-  integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
-
-lodash@^4.17.21:
+lodash@^4.17.15:
   version "4.17.21"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
-log-symbols@^4.0.0:
-  version "4.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/log-symbols/-/log-symbols-4.1.0.tgz#3fbdbb95b4683ac9fc785111e792e558d4abd503"
-  integrity sha1-P727lbRoOsn8eFER55LlWNSr1QM=
+loupe@^2.3.1, loupe@^2.3.6:
+  version "2.3.6"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/loupe/-/loupe-2.3.6.tgz#76e4af498103c532d1ecc9be102036a21f787b53"
+  integrity sha1-duSvSYEDxTLR7Mm+ECA2oh94e1M=
   dependencies:
-    chalk "^4.1.0"
-    is-unicode-supported "^0.1.0"
-
-log-update@^4.0.0:
-  version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/log-update/-/log-update-4.0.0.tgz#589ecd352471f2a1c0c570287543a64dfd20e0a1"
-  integrity sha1-WJ7NNSRx8qHAxXAodUOmTf0g4KE=
-  dependencies:
-    ansi-escapes "^4.3.0"
-    cli-cursor "^3.1.0"
-    slice-ansi "^4.0.0"
-    wrap-ansi "^6.2.0"
+    get-func-name "^2.0.0"
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -1157,34 +622,31 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-merge-stream@^2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
-  integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
+magic-string@^0.30.0:
+  version "0.30.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/magic-string/-/magic-string-0.30.0.tgz#fd58a4748c5c4547338a424e90fa5dd17f4de529"
+  integrity sha1-/VikdIxcRUczikJOkPpd0X9N5Sk=
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.4.13"
+
+md5-hex@^3.0.1:
+  version "3.0.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/md5-hex/-/md5-hex-3.0.1.tgz#be3741b510591434b2784d79e556eefc2c9a8e5c"
+  integrity sha1-vjdBtRBZFDSyeE155Vbu/Cyajlw=
+  dependencies:
+    blueimp-md5 "^2.10.0"
 
 mime-db@1.52.0:
   version "1.52.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
   integrity sha1-u6vNwChZ9JhzAchW4zh85exDv3A=
 
-mime-types@^2.1.12, mime-types@~2.1.19:
+mime-types@^2.1.12:
   version "2.1.35"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
   integrity sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=
   dependencies:
     mime-db "1.52.0"
-
-mimic-fn@^2.1.0:
-  version "2.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
-  integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
-
-minimatch@^3.1.1:
-  version "3.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
-  integrity sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s=
-  dependencies:
-    brace-expansion "^1.1.7"
 
 minimatch@^6.1.6:
   version "6.2.0"
@@ -1193,103 +655,57 @@ minimatch@^6.1.6:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@^1.2.6:
-  version "1.2.8"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
-  integrity sha1-waRk52kzAuCCoHXO4MBXdBrEdyw=
+mlly@^1.1.1, mlly@^1.2.0:
+  version "1.2.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/mlly/-/mlly-1.2.0.tgz#f0f6c2fc8d2d12ea6907cd869066689b5031b613"
+  integrity sha1-8PbC/I0tEuppB82GkGZom1AxthM=
+  dependencies:
+    acorn "^8.8.2"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    ufo "^1.1.1"
 
 ms@2.1.2:
   version "2.1.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
 
-ms@^2.1.1:
-  version "2.1.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
-  integrity sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=
-
 muggle-string@^0.2.2:
   version "0.2.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/muggle-string/-/muggle-string-0.2.2.tgz#786aa53fea1652c61c6a59e1f839292b262bc72a"
   integrity sha1-eGqlP+oWUsYcalnh+DkpKyYrxyo=
 
-nanoid@^3.3.4:
+nanoid@^3.3.4, nanoid@^3.3.6:
   version "3.3.6"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=
 
-npm-run-path@^4.0.0:
-  version "4.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
-  integrity sha1-t+zR5e1T2o43pV4cImnguX7XSOo=
-  dependencies:
-    path-key "^3.0.0"
-
-object-inspect@^1.9.0:
-  version "1.12.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/object-inspect/-/object-inspect-1.12.3.tgz#ba62dffd67ee256c8c086dfae69e016cd1f198b9"
-  integrity sha1-umLf/WfuJWyMCG365p4BbNHxmLk=
-
-once@^1.3.0, once@^1.3.1, once@^1.4.0:
-  version "1.4.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
-  integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
-  dependencies:
-    wrappy "1"
-
-onetime@^5.1.0:
-  version "5.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
-  integrity sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=
-  dependencies:
-    mimic-fn "^2.1.0"
-
-ospath@^1.2.2:
-  version "1.2.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ospath/-/ospath-1.2.2.tgz#1276639774a3f8ef2572f7fe4280e0ea4550c07b"
-  integrity sha1-EnZjl3Sj+O8lcvf+QoDg6kVQwHs=
-
-p-map@^4.0.0:
+p-limit@^4.0.0:
   version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/p-map/-/p-map-4.0.0.tgz#bb2f95a5eda2ec168ec9274e06a747c3e2904d2b"
-  integrity sha1-uy+Vpe2i7BaOySdOBqdHw+KQTSs=
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/p-limit/-/p-limit-4.0.0.tgz#914af6544ed32bfa54670b061cafcbd04984b644"
+  integrity sha1-kUr2VE7TK/pUZwsGHK/L0EmEtkQ=
   dependencies:
-    aggregate-error "^3.0.0"
-
-path-is-absolute@^1.0.0:
-  version "1.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
-  integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
-
-path-key@^3.0.0, path-key@^3.1.0:
-  version "3.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
-  integrity sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U=
+    yocto-queue "^1.0.0"
 
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=
 
-pend@~1.2.0:
-  version "1.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
-  integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
+pathe@^1.1.0:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pathe/-/pathe-1.1.0.tgz#e2e13f6c62b31a3289af4ba19886c230f295ec03"
+  integrity sha1-4uE/bGKzGjKJr0uhmIbCMPKV7AM=
 
-performance-now@^2.1.0:
-  version "2.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
-  integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+pathval@^1.1.1:
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
+  integrity sha1-hTTnenfOesWiUS6iHg/bj89sPY0=
 
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
-
-pify@^2.2.0:
-  version "2.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
-  integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
 
 pinia@^2.0.34:
   version "2.0.34"
@@ -1298,6 +714,15 @@ pinia@^2.0.34:
   dependencies:
     "@vue/devtools-api" "^6.5.0"
     vue-demi "*"
+
+pkg-types@^1.0.2:
+  version "1.0.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pkg-types/-/pkg-types-1.0.2.tgz#c233efc5210a781e160e0cafd60c0d0510a4b12e"
+  integrity sha1-wjPvxSEKeB4WDgyv1gwNBRCksS4=
+  dependencies:
+    jsonc-parser "^3.2.0"
+    mlly "^1.1.1"
+    pathe "^1.1.0"
 
 postcss@^8.1.10, postcss@^8.4.21:
   version "8.4.21"
@@ -1308,52 +733,33 @@ postcss@^8.1.10, postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-pretty-bytes@^5.6.0:
-  version "5.6.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
-  integrity sha1-NWJW9kOAR3PIL2RyP+eMksYr6us=
+postcss@^8.4.23:
+  version "8.4.23"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
+  integrity sha1-3wrumsfF5T4QdcJKNhNJb55lUqs=
+  dependencies:
+    nanoid "^3.3.6"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
 
-proxy-from-env@1.0.0:
-  version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/proxy-from-env/-/proxy-from-env-1.0.0.tgz#33c50398f70ea7eb96d21f7b817630a55791c7ee"
-  integrity sha1-M8UDmPcOp+uW0h97gXYwpVeRx+4=
+pretty-format@^27.5.1:
+  version "27.5.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pretty-format/-/pretty-format-27.5.1.tgz#2181879fdea51a7a5851fb39d920faa63f01d88e"
+  integrity sha1-IYGHn96lGnpYUfs52SD6pj8B2I4=
+  dependencies:
+    ansi-regex "^5.0.1"
+    ansi-styles "^5.0.0"
+    react-is "^17.0.1"
 
 proxy-from-env@^1.1.0:
   version "1.1.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=
 
-psl@^1.1.28:
-  version "1.9.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/psl/-/psl-1.9.0.tgz#d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7"
-  integrity sha1-0N8qE38AeUVl/K87LADNCfjVpac=
-
-pump@^3.0.0:
-  version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
-  integrity sha1-tKIRaBW94vTh6mAjVOjHVWUQemQ=
-  dependencies:
-    end-of-stream "^1.1.0"
-    once "^1.3.1"
-
-punycode@^2.1.1:
-  version "2.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
-  integrity sha1-9n+mfJTaj00M//mBruQRgGQZm48=
-
-qs@~6.10.3:
-  version "6.10.5"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/qs/-/qs-6.10.5.tgz#974715920a80ff6a262264acd2c7e6c2a53282b4"
-  integrity sha1-l0cVkgqA/2omImSs0sfmwqUygrQ=
-  dependencies:
-    side-channel "^1.0.4"
-
-request-progress@^3.0.0:
-  version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/request-progress/-/request-progress-3.0.0.tgz#4ca754081c7fec63f505e4faa825aa06cd669dbe"
-  integrity sha1-TKdUCBx/7GP1BeT6qCWqBs1mnb4=
-  dependencies:
-    throttleit "^1.0.0"
+react-is@^17.0.1:
+  version "17.0.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
 resolve@^1.22.1:
   version "1.22.2"
@@ -1364,26 +770,6 @@ resolve@^1.22.1:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-restore-cursor@^3.1.0:
-  version "3.1.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/restore-cursor/-/restore-cursor-3.1.0.tgz#39f67c54b3a7a58cea5236d95cf0034239631f7e"
-  integrity sha1-OfZ8VLOnpYzqUjbZXPADQjljH34=
-  dependencies:
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-
-rfdc@^1.3.0:
-  version "1.3.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/rfdc/-/rfdc-1.3.0.tgz#d0b7c441ab2720d05dc4cf26e01c89631d9da08b"
-  integrity sha1-0LfEQasnINBdxM8m4ByJYx2doIs=
-
-rimraf@^3.0.0:
-  version "3.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
-  integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
-  dependencies:
-    glob "^7.1.3"
-
 rollup@^3.18.0:
   version "3.20.2"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/rollup/-/rollup-3.20.2.tgz#f798c600317f216de2e4ad9f4d9ab30a89b690ff"
@@ -1391,73 +777,24 @@ rollup@^3.18.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rxjs@^7.5.1:
-  version "7.8.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/rxjs/-/rxjs-7.8.0.tgz#90a938862a82888ff4c7359811a595e14e1e09a4"
-  integrity sha1-kKk4hiqCiI/0xzWYEaWV4U4eCaQ=
-  dependencies:
-    tslib "^2.1.0"
-
-safe-buffer@^5.0.1, safe-buffer@^5.1.2:
-  version "5.2.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
-  integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
-
-safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
-  version "2.1.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
-  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+rollup@^3.21.0:
+  version "3.21.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/rollup/-/rollup-3.21.0.tgz#0a71517db56e150222670f88e5e7acfa4fede7c8"
+  integrity sha1-CnFRfbVuFQIiZw+I5ees+k/t58g=
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 semver@^7.3.2:
-  version "7.3.8"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
-  integrity sha1-B6eP6vs/ezI0fXJeM95+Ki32d5g=
+  version "7.5.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
+  integrity sha1-7YxdyO+2xinIiyPUHcm/QMHZbNA=
   dependencies:
     lru-cache "^6.0.0"
 
-shebang-command@^2.0.0:
+siginfo@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
-  integrity sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo=
-  dependencies:
-    shebang-regex "^3.0.0"
-
-shebang-regex@^3.0.0:
-  version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
-  integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
-
-side-channel@^1.0.4:
-  version "1.0.4"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
-  integrity sha1-785cj9wQTudRslxY1CkAEfpeos8=
-  dependencies:
-    call-bind "^1.0.0"
-    get-intrinsic "^1.0.2"
-    object-inspect "^1.9.0"
-
-signal-exit@^3.0.2:
-  version "3.0.7"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
-  integrity sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=
-
-slice-ansi@^3.0.0:
-  version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/slice-ansi/-/slice-ansi-3.0.0.tgz#31ddc10930a1b7e0b67b08c96c2f49b77a789787"
-  integrity sha1-Md3BCTCht+C2ewjJbC9Jt3p4l4c=
-  dependencies:
-    ansi-styles "^4.0.0"
-    astral-regex "^2.0.0"
-    is-fullwidth-code-point "^3.0.0"
-
-slice-ansi@^4.0.0:
-  version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/slice-ansi/-/slice-ansi-4.0.0.tgz#500e8dd0fd55b05815086255b3195adf2a45fe6b"
-  integrity sha1-UA6N0P1VsFgVCGJVsxla3ypF/ms=
-  dependencies:
-    ansi-styles "^4.0.0"
-    astral-regex "^2.0.0"
-    is-fullwidth-code-point "^3.0.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/siginfo/-/siginfo-2.0.0.tgz#32e76c70b79724e3bb567cb9d543eb858ccfaf30"
+  integrity sha1-MudscLeXJOO7Vny51UPrhYzPrzA=
 
 source-map-js@^1.0.2:
   version "1.0.2"
@@ -1474,136 +811,85 @@ sourcemap-codec@^1.4.8:
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=
 
-sshpk@^1.14.1:
-  version "1.17.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/sshpk/-/sshpk-1.17.0.tgz#578082d92d4fe612b13007496e543fa0fbcbe4c5"
-  integrity sha1-V4CC2S1P5hKxMAdJblQ/oPvL5MU=
-  dependencies:
-    asn1 "~0.2.3"
-    assert-plus "^1.0.0"
-    bcrypt-pbkdf "^1.0.0"
-    dashdash "^1.12.0"
-    ecc-jsbn "~0.1.1"
-    getpass "^0.1.1"
-    jsbn "~0.1.0"
-    safer-buffer "^2.0.2"
-    tweetnacl "~0.14.0"
+stackback@0.0.2:
+  version "0.0.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/stackback/-/stackback-0.0.2.tgz#1ac8a0d9483848d1695e418b6d031a3c3ce68e3b"
+  integrity sha1-Gsig2Ug4SNFpXkGLbQMaPDzmjjs=
 
-string-width@^4.1.0, string-width@^4.2.0:
-  version "4.2.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA=
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
+std-env@^3.3.2:
+  version "3.3.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/std-env/-/std-env-3.3.2.tgz#af27343b001616015534292178327b202b9ee955"
+  integrity sha1-ryc0OwAWFgFVNCkheDJ7ICue6VU=
 
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=
+strip-literal@^1.0.1:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/strip-literal/-/strip-literal-1.0.1.tgz#0115a332710c849b4e46497891fb8d585e404bd2"
+  integrity sha1-ARWjMnEMhJtORkl4kfuNWF5AS9I=
   dependencies:
-    ansi-regex "^5.0.1"
-
-strip-final-newline@^2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
-  integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
-
-supports-color@^7.1.0:
-  version "7.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
-  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
-  dependencies:
-    has-flag "^4.0.0"
-
-supports-color@^8.1.1:
-  version "8.1.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/supports-color/-/supports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
-  integrity sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw=
-  dependencies:
-    has-flag "^4.0.0"
+    acorn "^8.8.2"
 
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
 
-throttleit@^1.0.0:
+time-zone@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
-  integrity sha1-nnhYNtr0Z0MUWlmEtiaNgoUorGw=
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/time-zone/-/time-zone-1.0.0.tgz#99c5bf55958966af6d06d83bdf3800dc82faec5d"
+  integrity sha1-mcW/VZWJZq9tBtg73zgA3IL67F0=
 
-through@^2.3.8:
-  version "2.3.8"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+tinybench@^2.4.0:
+  version "2.4.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tinybench/-/tinybench-2.4.0.tgz#83f60d9e5545353610fe7993bd783120bc20c7a7"
+  integrity sha1-g/YNnlVFNTYQ/nmTvXgxILwgx6c=
 
-tmp@~0.2.1:
-  version "0.2.1"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tmp/-/tmp-0.2.1.tgz#8457fc3037dcf4719c251367a1af6500ee1ccf14"
-  integrity sha1-hFf8MDfc9HGcJRNnoa9lAO4czxQ=
-  dependencies:
-    rimraf "^3.0.0"
+tinypool@^0.4.0:
+  version "0.4.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tinypool/-/tinypool-0.4.0.tgz#3cf3ebd066717f9f837e8d7d31af3c127fdb5446"
+  integrity sha1-PPPr0GZxf5+Dfo19Ma88En/bVEY=
 
-tough-cookie@~2.5.0:
-  version "2.5.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"
-  integrity sha1-zZ+yoKodWhK0c72fuW+j3P9lreI=
-  dependencies:
-    psl "^1.1.28"
-    punycode "^2.1.1"
+tinyspy@^2.1.0:
+  version "2.1.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tinyspy/-/tinyspy-2.1.0.tgz#bd6875098f988728e6456cfd5ab8cc06498ecdeb"
+  integrity sha1-vWh1CY+YhyjmRWz9WrjMBkmOzes=
 
-tslib@^2.1.0:
-  version "2.5.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
-  integrity sha1-Qr/thvV4eutB0DGGbI9AJCng/d8=
-
-tunnel-agent@^0.6.0:
-  version "0.6.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
-  integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
-  dependencies:
-    safe-buffer "^5.0.1"
-
-tweetnacl@^0.14.3, tweetnacl@~0.14.0:
-  version "0.14.5"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
-  integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
-
-type-fest@^0.21.3:
-  version "0.21.3"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
-  integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
+type-detect@^4.0.0, type-detect@^4.0.5:
+  version "4.0.8"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  integrity sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=
 
 typescript@^4.9.3:
   version "4.9.5"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha1-CVl5+bzA0J2jJNWNA86Pg3TL5lo=
 
-universalify@^2.0.0:
-  version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
-  integrity sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc=
+ufo@^1.1.1:
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/ufo/-/ufo-1.1.1.tgz#e70265e7152f3aba425bd013d150b2cdf4056d7c"
+  integrity sha1-5wJl5xUvOrpCW9AT0VCyzfQFbXw=
 
-untildify@^4.0.0:
-  version "4.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/untildify/-/untildify-4.0.0.tgz#2bc947b953652487e4600949fb091e3ae8cd919b"
-  integrity sha1-K8lHuVNlJIfkYAlJ+wkeOujNkZs=
-
-uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha1-gNW1ztJxu5r2xEXyGhoExgbO++I=
-
-verror@1.10.0:
-  version "1.10.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
-  integrity sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+vite-node@0.30.1:
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/vite-node/-/vite-node-0.30.1.tgz#ab0ed1553019c7d81ac95529c57ab8ac9e82347d"
+  integrity sha1-qw7RVTAZx9gayVUpxXq4rJ6CNH0=
   dependencies:
-    assert-plus "^1.0.0"
-    core-util-is "1.0.2"
-    extsprintf "^1.2.0"
+    cac "^6.7.14"
+    debug "^4.3.4"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    picocolors "^1.0.0"
+    vite "^3.0.0 || ^4.0.0"
+
+"vite@^3.0.0 || ^4.0.0":
+  version "4.3.3"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/vite/-/vite-4.3.3.tgz#26adb4aa01439fc4546c480ea547674d87289396"
+  integrity sha1-Jq20qgFDn8RUbEgOpUdnTYcok5Y=
+  dependencies:
+    esbuild "^0.17.5"
+    postcss "^8.4.23"
+    rollup "^3.21.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 vite@^4.2.0:
   version "4.2.1"
@@ -1616,6 +902,38 @@ vite@^4.2.0:
     rollup "^3.18.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vitest@^0.30.1:
+  version "0.30.1"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/vitest/-/vitest-0.30.1.tgz#351d4a2f27aa8cc0245e3583e3ed45e30efc71d6"
+  integrity sha1-NR1KLyeqjMAkXjWD4+1F4w78cdY=
+  dependencies:
+    "@types/chai" "^4.3.4"
+    "@types/chai-subset" "^1.3.3"
+    "@types/node" "*"
+    "@vitest/expect" "0.30.1"
+    "@vitest/runner" "0.30.1"
+    "@vitest/snapshot" "0.30.1"
+    "@vitest/spy" "0.30.1"
+    "@vitest/utils" "0.30.1"
+    acorn "^8.8.2"
+    acorn-walk "^8.2.0"
+    cac "^6.7.14"
+    chai "^4.3.7"
+    concordance "^5.0.4"
+    debug "^4.3.4"
+    local-pkg "^0.4.3"
+    magic-string "^0.30.0"
+    pathe "^1.1.0"
+    picocolors "^1.0.0"
+    source-map "^0.6.1"
+    std-env "^3.3.2"
+    strip-literal "^1.0.1"
+    tinybench "^2.4.0"
+    tinypool "^0.4.0"
+    vite "^3.0.0 || ^4.0.0"
+    vite-node "0.30.1"
+    why-is-node-running "^2.2.2"
 
 vue-demi@*:
   version "0.13.11"
@@ -1649,45 +967,25 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-which@^2.0.1:
-  version "2.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
-  integrity sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=
-  dependencies:
-    isexe "^2.0.0"
+well-known-symbols@^2.0.0:
+  version "2.0.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/well-known-symbols/-/well-known-symbols-2.0.0.tgz#e9c7c07dbd132b7b84212c8174391ec1f9871ba5"
+  integrity sha1-6cfAfb0TK3uEISyBdDkewfmHG6U=
 
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
+why-is-node-running@^2.2.2:
+  version "2.2.2"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/why-is-node-running/-/why-is-node-running-2.2.2.tgz#4185b2b4699117819e7154594271e7e344c9973e"
+  integrity sha1-QYWytGmRF4GecVRZQnHn40TJlz4=
   dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrap-ansi@^7.0.0:
-  version "7.0.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
-  integrity sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM=
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrappy@1:
-  version "1.0.2"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-  integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+    siginfo "^2.0.0"
+    stackback "0.0.2"
 
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
 
-yauzl@^2.10.0:
-  version "2.10.0"
-  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/yauzl/-/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
-  integrity sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
-  dependencies:
-    buffer-crc32 "~0.2.3"
-    fd-slicer "~1.1.0"
+yocto-queue@^1.0.0:
+  version "1.0.0"
+  resolved "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/npm/registry/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
+  integrity sha1-f4FkM/ssvFEeyL99Jjw7WKGjwlE=
